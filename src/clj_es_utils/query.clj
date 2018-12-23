@@ -4,7 +4,12 @@
 
 (def ^:dynamic *node-tags*
   "The set of tags for which ES query nodes will be detected."
-  #{:bool :terms :term :match :multi_match :nested :range :ids})
+  #{:bool
+    :terms :term
+    :match :multi_match :match_phrase
+    :nested
+    :range
+    :ids})
 
 (defn node-tag
   "Returns the tag of an ES query node if it's a valid node.
