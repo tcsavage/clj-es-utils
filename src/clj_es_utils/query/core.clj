@@ -1,4 +1,4 @@
-(ns clj-es-utils.query
+(ns clj-es-utils.query.core
   "Utilities for operating on the Elasticsearch query DSL."
   (:require [clojure.walk :as walk]))
 
