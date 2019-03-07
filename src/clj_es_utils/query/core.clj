@@ -9,7 +9,8 @@
     :match :multi_match :match_phrase
     :nested
     :range
-    :ids})
+    :ids
+    :exists})
 
 (defn node-tag
   "Returns the tag of an ES query node if it's a valid node.
