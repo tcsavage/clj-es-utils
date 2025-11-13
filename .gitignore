@@ -13,3 +13,5 @@ pom.xml.asc
 .rebel*
 .Ulysses*.plist
 .cpcache
+.clj-kondo/.cache/
+.calva/output-window
